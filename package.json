@@ -1,0 +1,31 @@
+{
+  "name": "node-domino",
+  "version": "0.0.1",
+  "description": "StatefulMVC Framework",
+  "keywords": [
+    "mvc"
+  ],
+  "homepage": "https://github.com/subak/node-domino",
+  "author": {
+    "name": "Subak Systems",
+    "email": "info@subak.jp",
+    "url": "https://github.com/subak"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/subak/node-domino.git"
+  },
+  "dependencies": {
+    "amdefine": "0.0.4",
+    "JQDeferred": "1.9.1",
+    "requirejs": "2.1.5",
+    "xregexp": "2.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10.5"
+  },
+  "readme": "StatefulMVC Framework",
+  "_id": "node-domino@0.0.1",
+  "_from": "node-domino"
+}
