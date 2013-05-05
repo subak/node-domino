@@ -25,6 +25,7 @@
   "engines": {
     "node": ">=0.10.5"
   },
+  "main": "domino.js",
   "readme": "StatefulMVC Framework",
   "_id": "node-domino@0.0.1",
   "_from": "node-domino"
