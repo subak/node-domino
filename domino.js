@@ -10,6 +10,7 @@ requirejs.config({
 });
 
 exports.Application = requirejs("lib/application");
+exports.Class = requirejs("lib/class");
 exports.Controller = requirejs("lib/controller");
 exports.Model = requirejs("lib/model");
 exports.Router = requirejs("lib/router");
