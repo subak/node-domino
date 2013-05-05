@@ -1,0 +1,30 @@
+[
+  {
+    "action": "index",
+    "pattern":  "^GET /(?<scope>[^/]*)$"
+  },
+  {
+    "action":  "new",
+    "pattern": "^GET /(?<scope>[^/]*)/new$"
+  },
+  {
+    "action":  "edit",
+    "pattern": "^GET /(?<scope>[^/]*)/(?<id>[^/]*)/edit$"
+  },
+  {
+    "action":  "show",
+    "pattern": "^GET /(?<scope>[^/]*)/(?<id>[^/]*)$"
+  },
+  {
+    "action":  "create",
+    "pattern": "POST ^/(?<scope>[^/]*)$"
+  },
+  {
+    "action":  "update",
+    "pattern": "PUT ^/(?<scope>[^/]*)/(?<id>[^/]*)$"
+  },
+  {
+    "action":  "destroy",
+    "pattern": "DELETE ^/(?<scope>[^/]*)/(?<id>[^/]*)$"
+  }
+]
