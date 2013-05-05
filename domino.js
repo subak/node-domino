@@ -5,8 +5,7 @@ exports.routes = {
 var requirejs = require("requirejs");
 if (typeof define !== 'function') { var define = require('amdefine')(module) }
 requirejs.config({
-  baseUrl: __dirname,
-  nodeRequire: require
+  baseUrl: __dirname
 });
 
 exports.Application = requirejs("lib/application");
